@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  username: MyString
+  hash: MyString
+  salt: MyString
+  task_ownership_id: 1
+
+two:
+  username: MyString
+  hash: MyString
+  salt: MyString
+  task_ownership_id: 1

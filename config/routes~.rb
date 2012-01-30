@@ -1,11 +1,11 @@
 Skoolr::Application.routes.draw do
-  resources :courses
-
   resources :settings
 
   resources :notifications
 
   resources :messages
+
+  resources :b_classes
 
   resources :tasks
 

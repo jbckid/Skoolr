@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  sender: 
+  recipient: 
+  content: MyText
+
+two:
+  sender: 
+  recipient: 
+  content: MyText

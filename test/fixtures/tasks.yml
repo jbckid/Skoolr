@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  due: 2012-02-15
+  super_task_id: 1
+  task_ownership_id: 1
+  class_id: 1
+
+two:
+  name: MyString
+  due: 2012-02-15
+  super_task_id: 1
+  task_ownership_id: 1
+  class_id: 1

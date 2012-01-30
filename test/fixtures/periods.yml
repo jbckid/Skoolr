@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  class_name: MyString
+  start_time: 2012-02-13 15:28:00
+  end_time: 2012-02-13 15:28:00
+  order: 1
+  schedule_id: 1
+
+two:
+  class_name: MyString
+  start_time: 2012-02-13 15:28:00
+  end_time: 2012-02-13 15:28:00
+  order: 1
+  schedule_id: 1

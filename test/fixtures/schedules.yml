@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  period: false
+  user_id: 1
+
+two:
+  period: false
+  user_id: 1
