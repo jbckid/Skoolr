@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  username: MyString
+  schedule_id: 1
+  settings_id: 1
+  hash: MyString
+  salt: MyString
+  taskOwnership_id: 1
+
+two:
+  username: MyString
+  schedule_id: 1
+  settings_id: 1
+  hash: MyString
+  salt: MyString
+  taskOwnership_id: 1

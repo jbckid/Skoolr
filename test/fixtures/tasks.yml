@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  dueDate: 2012-01-23 15:16:34
+  class: MyString
+  owner: 1
+  sharedWith_id: 1
+  superTask_id: 1
+
+two:
+  name: MyString
+  dueDate: 2012-01-23 15:16:34
+  class: MyString
+  owner: 1
+  sharedWith_id: 1
+  superTask_id: 1
