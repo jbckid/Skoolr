@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Class name:</b>
+  <%= @band.class_name %>
+</p>
+
+<p>
+  <b>Start time:</b>
+  <%= @band.start_time %>
+</p>
+
+<p>
+  <b>End time:</b>
+  <%= @band.end_time %>
+</p>
+
+<p>
+  <b>Band:</b>
+  <%= @band.band %>
+</p>
+
+<p>
+  <b>Schedule:</b>
+  <%= @band.schedule_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_band_path(@band) %> |
+<%= link_to 'Back', bands_path %>

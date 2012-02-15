@@ -1,0 +1,27 @@
+<h1>Listing b_classes</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Band</th>
+    <th>User</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @b_classes.each do |b_class| %>
+  <tr>
+    <td><%= b_class.name %></td>
+    <td><%= b_class.band_id %></td>
+    <td><%= b_class.user_id %></td>
+    <td><%= link_to 'Show', b_class %></td>
+    <td><%= link_to 'Edit', edit_b_class_path(b_class) %></td>
+    <td><%= link_to 'Destroy', b_class, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New B class', new_b_class_path %>

@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>User:</b>
+  <%= @task_ownership.user_id %>
+</p>
+
+<p>
+  <b>Task:</b>
+  <%= @task_ownership.task_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_task_ownership_path(@task_ownership) %> |
+<%= link_to 'Back', task_ownerships_path %>

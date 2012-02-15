@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
 
 one:
-  bandSchedule_id: 1
-  periodSchedule_id: 1
+  period: false
+  user_id: 1
 
 two:
-  bandSchedule_id: 1
-  periodSchedule_id: 1
+  period: false
+  user_id: 1

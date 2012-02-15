@@ -1,4 +1,24 @@
 Skoolr::Application.routes.draw do
+  resources :settings
+
+  resources :notifications
+
+  resources :messages
+
+  resources :b_classes
+
+  resources :tasks
+
+  resources :task_ownerships
+
+  resources :bands
+
+  resources :periods
+
+  resources :schedules
+
+  resources :users
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

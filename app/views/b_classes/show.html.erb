@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @b_class.name %>
+</p>
+
+<p>
+  <b>Band:</b>
+  <%= @b_class.band_id %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @b_class.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_b_class_path(@b_class) %> |
+<%= link_to 'Back', b_classes_path %>
