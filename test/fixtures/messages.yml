@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
 
 one:
-  from_user_id: 1
-  to_user_id: 1
+  sender: 
+  recipient: 
   content: MyText
 
 two:
-  from_user_id: 1
-  to_user_id: 1
+  sender: 
+  recipient: 
   content: MyText

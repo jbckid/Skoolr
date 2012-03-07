@@ -6,7 +6,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :phone_number
       t.string :hash
       t.string :salt
-      t.integer :task_ownership_id
+      t.references :task_ownership_id
 
       t.timestamps
     end

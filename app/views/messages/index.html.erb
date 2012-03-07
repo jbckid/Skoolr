@@ -2,8 +2,8 @@
 
 <table>
   <tr>
-    <th>From user</th>
-    <th>To user</th>
+    <th>Sender</th>
+    <th>Recipient</th>
     <th>Content</th>
     <th></th>
     <th></th>
@@ -12,8 +12,8 @@
 
 <% @messages.each do |message| %>
   <tr>
-    <td><%= message.from_user_id %></td>
-    <td><%= message.to_user_id %></td>
+    <td><%= message.sender %></td>
+    <td><%= message.recipient %></td>
     <td><%= message.content %></td>
     <td><%= link_to 'Show', message %></td>
     <td><%= link_to 'Edit', edit_message_path(message) %></td>

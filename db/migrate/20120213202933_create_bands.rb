@@ -4,9 +4,9 @@ class CreateBands < ActiveRecord::Migration
       t.integer :class_name
       t.time :start_time
       t.time :end_time
+      # A band=0, B band=1 etc.
       t.integer :band
-      t.integer :schedule_id
-
+      
       t.timestamps
     end
   end

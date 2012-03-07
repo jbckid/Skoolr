@@ -5,7 +5,7 @@ class CreatePeriods < ActiveRecord::Migration
       t.time :start_time
       t.time :end_time
       t.integer :order
-      t.integer :schedule_id
+      t.references :schedule_id
 
       t.timestamps
     end

@@ -1,8 +1,7 @@
 class CreateSchedules < ActiveRecord::Migration
   def change
     create_table :schedules do |t|
-      t.integer :bandSchedule_id
-      t.integer :periodSchedule_id
+      t.references :user_id
 
       t.timestamps
     end
