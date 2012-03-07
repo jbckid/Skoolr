@@ -5,7 +5,7 @@ class CreateTasks < ActiveRecord::Migration
       t.date :due
       t.references :super_task_id
       t.references :task_ownership_id
-      t.references :class_id
+      t.references :course_id
 
       t.timestamps
     end

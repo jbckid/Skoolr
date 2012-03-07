@@ -1,7 +1,7 @@
 class CreateSchedules < ActiveRecord::Migration
   def change
     create_table :schedules do |t|
-      t.boolean :period
+      t.boolean :is_period
       t.references :user_id
 
       t.timestamps
