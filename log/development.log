@@ -1,0 +1,32 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-03-12 15:34:49 -0400
+Served asset /rails.png - 200 OK (78ms)
+
+
+Started GET "/schoolr" for 127.0.0.1 at 2012-03-12 15:35:08 -0400
+
+ActionController::RoutingError (No route matches [GET] "/schoolr"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (109.2ms)
+
+
+Started GET "/Users/Julietteschoolr" for 127.0.0.1 at 2012-03-12 15:37:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/Users/Julietteschoolr"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/Users/Juliette/schoolr" for 127.0.0.1 at 2012-03-12 15:37:48 -0400
+
+ActionController::RoutingError (No route matches [GET] "/Users/Juliette/schoolr"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-03-12 15:40:01 -0400
+Served asset /rails.png - 304 Not Modified (0ms)

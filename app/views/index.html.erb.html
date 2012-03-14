@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+</head>
+
+<body>
+<meta charset="utf-8">
+	
+	<script>
+	$(function() {
+		$( "#tabs" ).tabs({
+			ajaxOptions: {
+				error: function( xhr, status, index, anchor ) {
+					$( anchor.hash ).html(
+						"Couldn't load this tab. We'll try to fix this as soon as possible. " +
+						"If this wouldn't be a demo." );
+				}
+			}
+		});
+	});
+	</script>
+
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">Welcome</a></li>
+		<li><a href="#month-tab">Month</a></li>
+		<li><a href="#week-tab">Week</a></li>
+		<li><a href="#day-tab">Day</a></li>
+	</ul>
+	<div id="tabs-1">
+		<p>Welcome to Schoolr!</p>
+		<p>Currently the month, week, and day calendar views do not have any functionality. Tasks are in progress.</p>
+	</div>
+	<div id="month-tab">
+		<%= render "shared/month_view" %>
+	</div>
+	<div id="week-tab">
+		<%= render "shared/week_view" %>
+	</div>
+	<div id="day-tab">
+		<%= render "shared/day_view" %>
+	</div>
+</div>
+
+
+<button id="new-task">Add a task</button>
+
+<div id="task-tab">
+	<%= render "shared/newtaskform" %>
+</div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,22 @@
+<%= form_for(@task), remote => do |f| %>
+	<% if @task.errors.any? %>
+		<div id="error_explanation">
+			<h2>
+				<%= pluralize(@task.errors.count, "error") %> prohibited this task from being saved:
+			</h2>
+			<ul>
+				<% @task.errors.full_messages.each do |task| %>
+					<li><%= msg %></li>
+				<% end $>
+			</ul>
+		</div>
+	<% end %>
+	<div>
+		<%= f.label :name %>
+		<%= f.text_field :name %>
+		<%= f.label :due_date %>
+		<%- f.select
+	</div>
+<% end %>
+		
+				
