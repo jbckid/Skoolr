@@ -3,9 +3,9 @@ class CreateTasks < ActiveRecord::Migration
     create_table :tasks do |t|
       t.string :name
       t.date :due
-      t.references :super_task_id
-      t.references :task_ownership_id
-      t.references :course_id
+      t.references :super_task
+      t.references :task_ownership
+      t.references :course
 
       t.timestamps
     end

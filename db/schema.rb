@@ -45,28 +45,28 @@ ActiveRecord::Schema.define(:version => 20120307151009) do
 
   create_table "notifications", :force => true do |t|
     t.text     "content"
-    t.integer  "user_id_id"
+    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "periods", :force => true do |t|
     t.integer  "period"
-    t.integer  "schedule_id_id"
+    t.integer  "schedule_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "schedule_ownerships", :force => true do |t|
-    t.integer  "user_id_id"
-    t.integer  "schedule_id_id"
+    t.integer  "user_id"
+    t.integer  "schedule_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "schedules", :force => true do |t|
     t.boolean  "is_period"
-    t.integer  "user_id_id"
+    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -77,8 +77,8 @@ ActiveRecord::Schema.define(:version => 20120307151009) do
   end
 
   create_table "task_ownerships", :force => true do |t|
-    t.integer  "user_id_id"
-    t.integer  "task_id_id"
+    t.integer  "user_id"
+    t.integer  "task_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -86,19 +86,19 @@ ActiveRecord::Schema.define(:version => 20120307151009) do
   create_table "tasks", :force => true do |t|
     t.string   "name"
     t.date     "due"
-    t.integer  "super_task_id_id"
-    t.integer  "task_ownership_id_id"
-    t.integer  "course_id_id"
+    t.integer  "super_task_id"
+    t.integer  "task_ownership_id"
+    t.integer  "course_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "users", :force => true do |t|
     t.string   "username"
-    t.integer  "settings_id_id"
+    t.integer  "settings_id"
     t.string   "hash"
     t.string   "salt"
-    t.integer  "taskOwnership_id_id"
+    t.integer  "task_ownership_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -135,3 +135,666 @@ Migrating to CreateCourses (20120307151009)
   [1m[35m (0.0ms)[0m  PRAGMA index_list("task_ownerships")
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("tasks")[0m
   [1m[35m (0.1ms)[0m  PRAGMA index_list("users")
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-03-14 09:59:52 -0400
+Served asset /rails.png - 200 OK (6ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2012-03-14 10:03:34 -0400
+  Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.4ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Rendered tasks/index.html.erb within layouts/application (15.5ms)
+Compiled application.css  (32ms)  (pid 9139)
+Compiled bands.css  (44ms)  (pid 9139)
+Compiled courses.css  (2ms)  (pid 9139)
+Compiled messages.css  (2ms)  (pid 9139)
+Compiled notifications.css  (88ms)  (pid 9139)
+Compiled overcast/jquery-ui-1.8.17.custom.css  (33ms)  (pid 9139)
+Compiled periods.css  (18ms)  (pid 9139)
+Compiled scaffolds.css  (58ms)  (pid 9139)
+Compiled schedules.css  (12ms)  (pid 9139)
+Compiled settings.css  (3ms)  (pid 9139)
+Compiled task_ownerships.css  (16ms)  (pid 9139)
+Compiled tasks.css  (25ms)  (pid 9139)
+Compiled users.css  (20ms)  (pid 9139)
+Compiled application.js  (24ms)  (pid 9139)
+Compiled jquery.js  (40ms)  (pid 9139)
+Compiled jquery_ujs.js  (1ms)  (pid 9139)
+Compiled bands.js  (1087ms)  (pid 9139)
+Compiled courses.js  (322ms)  (pid 9139)
+Compiled messages.js  (353ms)  (pid 9139)
+Compiled notifications.js  (337ms)  (pid 9139)
+Compiled periods.js  (393ms)  (pid 9139)
+Compiled schedules.js  (383ms)  (pid 9139)
+Compiled settings.js  (331ms)  (pid 9139)
+Compiled task_ownerships.js  (342ms)  (pid 9139)
+Compiled tasks.js  (356ms)  (pid 9139)
+Compiled users.js  (476ms)  (pid 9139)
+Completed 200 OK in 5400ms (Views: 5397.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bands.css?body=1" for 127.0.0.1 at 2012-03-14 10:03:40 -0400
+Served asset /bands.css - 200 OK (20ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-14 10:03:40 -0400
+Served asset /application.css - 200 OK (103ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2012-03-14 10:03:40 -0400
+Served asset /courses.css - 200 OK (53ms)
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2012-03-14 10:03:40 -0400
+Served asset /messages.css - 200 OK (10ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2012-03-14 10:03:40 -0400
+Served asset /schedules.css - 200 OK (20ms)
+
+
+Started GET "/assets/overcast/jquery-ui-1.8.17.custom.css?body=1" for 127.0.0.1 at 2012-03-14 10:03:40 -0400
+Served asset /overcast/jquery-ui-1.8.17.custom.css - 200 OK (24ms)
+
+
+Started GET "/assets/notifications.css?body=1" for 127.0.0.1 at 2012-03-14 10:03:40 -0400
+Served asset /notifications.css - 200 OK (50ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-14 10:03:40 -0400
+Served asset /scaffolds.css - 200 OK (16ms)
+
+
+Started GET "/assets/periods.css?body=1" for 127.0.0.1 at 2012-03-14 10:03:40 -0400
+Served asset /periods.css - 200 OK (28ms)
+
+
+Started GET "/assets/settings.css?body=1" for 127.0.0.1 at 2012-03-14 10:03:41 -0400
+Served asset /settings.css - 200 OK (14ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-03-14 10:03:41 -0400
+Served asset /tasks.css - 200 OK (5ms)
+
+
+Started GET "/assets/task_ownerships.css?body=1" for 127.0.0.1 at 2012-03-14 10:03:41 -0400
+Served asset /task_ownerships.css - 200 OK (6ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-03-14 10:03:41 -0400
+Served asset /users.css - 200 OK (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-14 10:03:41 -0400
+Served asset /jquery.js - 200 OK (109ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-14 10:03:41 -0400
+Served asset /jquery_ujs.js - 200 OK (26ms)
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2012-03-14 10:03:41 -0400
+Served asset /courses.js - 200 OK (22ms)
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2012-03-14 10:03:41 -0400
+Served asset /messages.js - 200 OK (42ms)
+
+
+Started GET "/assets/bands.js?body=1" for 127.0.0.1 at 2012-03-14 10:03:41 -0400
+Served asset /bands.js - 200 OK (15ms)
+
+
+Started GET "/assets/notifications.js?body=1" for 127.0.0.1 at 2012-03-14 10:03:41 -0400
+Served asset /notifications.js - 200 OK (5ms)
+
+
+Started GET "/assets/settings.js?body=1" for 127.0.0.1 at 2012-03-14 10:03:41 -0400
+Served asset /settings.js - 200 OK (24ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2012-03-14 10:03:41 -0400
+Served asset /schedules.js - 200 OK (15ms)
+
+
+Started GET "/assets/periods.js?body=1" for 127.0.0.1 at 2012-03-14 10:03:41 -0400
+Served asset /periods.js - 200 OK (20ms)
+
+
+Started GET "/assets/task_ownerships.js?body=1" for 127.0.0.1 at 2012-03-14 10:03:41 -0400
+Served asset /task_ownerships.js - 200 OK (22ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-03-14 10:03:41 -0400
+Served asset /tasks.js - 200 OK (11ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-03-14 10:03:41 -0400
+Served asset /users.js - 200 OK (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-14 10:03:41 -0400
+Served asset /application.js - 200 OK (16ms)
+
+
+Started GET "/tasks/new" for 127.0.0.1 at 2012-03-14 10:03:44 -0400
+  Processing by TasksController#new as HTML
+Rendered tasks/_form.html.erb (122.2ms)
+Rendered tasks/new.html.erb within layouts/application (150.3ms)
+Completed 500 Internal Server Error in 157ms
+
+ActionView::Template::Error (undefined method `super_task_id' for #<Task:0x00000103dbe620>):
+    21:   </div>
+    22:   <div class="field">
+    23:     <%= f.label :super_task_id %><br />
+    24:     <%= f.number_field :super_task_id %>
+    25:   </div>
+    26:   <div class="field">
+    27:     <%= f.label :task_ownership_id %><br />
+  app/views/tasks/_form.html.erb:24:in `block in _app_views_tasks__form_html_erb__3517187034291653762_2178216400'
+  app/views/tasks/_form.html.erb:1:in `_app_views_tasks__form_html_erb__3517187034291653762_2178216400'
+  app/views/tasks/new.html.erb:3:in `_app_views_tasks_new_html_erb__1194769728998741378_2179778400'
+  app/controllers/tasks_controller.rb:29:in `new'
+
+Rendered /Users/toucannyc/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/toucannyc/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/toucannyc/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.9ms)
+
+
+Started GET "/tasks/new" for 127.0.0.1 at 2012-03-14 10:04:28 -0400
+  Processing by TasksController#new as HTML
+Rendered tasks/_form.html.erb (14.7ms)
+Rendered tasks/new.html.erb within layouts/application (15.5ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (undefined method `super_task_id' for #<Task:0x00000103948fc8>):
+    21:   </div>
+    22:   <div class="field">
+    23:     <%= f.label :super_task_id %><br />
+    24:     <%= f.number_field :super_task_id %>
+    25:   </div>
+    26:   <div class="field">
+    27:     <%= f.label :task_ownership_id %><br />
+  app/views/tasks/_form.html.erb:24:in `block in _app_views_tasks__form_html_erb__3517187034291653762_2178216400'
+  app/views/tasks/_form.html.erb:1:in `_app_views_tasks__form_html_erb__3517187034291653762_2178216400'
+  app/views/tasks/new.html.erb:3:in `_app_views_tasks_new_html_erb__1194769728998741378_2179778400'
+  app/controllers/tasks_controller.rb:29:in `new'
+
+Rendered /Users/toucannyc/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/toucannyc/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/toucannyc/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.2ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateCourses (20120307151009)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("courses")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_courses_on_period_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_courses_on_band_id')
+  [1m[36m (22.0ms)[0m  [1mDROP INDEX "index_courses_on_period_id"[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("courses")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_courses_on_band_id')[0m
+  [1m[35m (1.3ms)[0m  DROP INDEX "index_courses_on_band_id"
+  [1m[36m (35.5ms)[0m  [1mDROP TABLE "courses"[0m
+  [1m[35m (25.4ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120307151009'
+  [1m[36m (0.9ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("bands")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("messages")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_messages_on_recipient_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_messages_on_sender_id')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("notifications")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("periods")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schedule_ownerships")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schedules")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("settings")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("task_ownerships")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("tasks")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateMessages (20120222151513)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("messages")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_messages_on_recipient_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_messages_on_sender_id')
+  [1m[36m (0.7ms)[0m  [1mDROP INDEX "index_messages_on_recipient_id"[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("messages")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_messages_on_sender_id')[0m
+  [1m[35m (0.2ms)[0m  DROP INDEX "index_messages_on_sender_id"
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "messages"[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120222151513'
+  [1m[36m (0.4ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("bands")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("notifications")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("periods")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schedule_ownerships")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schedules")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("settings")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("task_ownerships")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("tasks")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateSettings (20120215151448)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.9ms)[0m  DROP TABLE "settings"
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120215151448'[0m
+  [1m[35m (0.4ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("bands")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("notifications")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("periods")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schedule_ownerships")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schedules")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("task_ownerships")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("tasks")
+  [1m[36m (0.3ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateNotifications (20120215150947)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  DROP TABLE "notifications"
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120215150947'[0m
+Migrating to CreateTasks (20120215150001)
+  [1m[35m (0.6ms)[0m  DROP TABLE "tasks"
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120215150001'[0m
+Migrating to CreateSchedules (20120213203416)
+  [1m[35m (0.6ms)[0m  DROP TABLE "schedules"
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120213203416'[0m
+Migrating to CreateTaskOwnerships (20120213203125)
+  [1m[35m (1.4ms)[0m  DROP TABLE "task_ownerships"
+  [1m[36m (1.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120213203125'[0m
+Migrating to CreateBands (20120213202933)
+  [1m[35m (0.7ms)[0m  DROP TABLE "bands"
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120213202933'[0m
+Migrating to CreatePeriods (20120213202800)
+  [1m[35m (0.7ms)[0m  DROP TABLE "periods"
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120213202800'[0m
+Migrating to CreateScheduleOwnerships (20120123204513)
+  [1m[35m (0.6ms)[0m  DROP TABLE "schedule_ownerships"
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120123204513'[0m
+Migrating to CreateUsers (20120123203823)
+  [1m[35m (0.6ms)[0m  DROP TABLE "users"
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120123203823'[0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120123203823)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "settings_id" integer, "hash" varchar(255), "salt" varchar(255), "taskOwnership_id_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120123203823')
+Migrating to CreateScheduleOwnerships (20120123204513)
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "schedule_ownerships" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "schedule_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120123204513')
+Migrating to CreatePeriods (20120213202800)
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "periods" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "period" integer, "schedule_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (1.6ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120213202800')
+Migrating to CreateBands (20120213202933)
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "bands" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "band" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120213202933')
+Migrating to CreateTaskOwnerships (20120213203125)
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "task_ownerships" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "task_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120213203125')
+Migrating to CreateSchedules (20120213203416)
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "schedules" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "is_period" boolean, "user_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120213203416')
+Migrating to CreateTasks (20120215150001)
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "tasks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "due" date, "super_task_id" integer, "task_ownership_id" integer, "course_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120215150001')
+Migrating to CreateNotifications (20120215150947)
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "notifications" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "content" text, "user_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120215150947')
+Migrating to CreateSettings (20120215151448)
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "settings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120215151448')
+Migrating to CreateMessages (20120222151513)
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "messages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sender_id" integer, "recipient_id" integer, "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("messages")
+  [1m[36m (0.1ms)[0m  [1mCREATE INDEX "index_messages_on_sender_id" ON "messages" ("sender_id")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("messages")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_messages_on_sender_id')[0m
+  [1m[35m (0.1ms)[0m  CREATE INDEX "index_messages_on_recipient_id" ON "messages" ("recipient_id")
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120222151513')[0m
+Migrating to CreateCourses (20120307151009)
+  [1m[35m (0.5ms)[0m  CREATE TABLE "courses" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "start" time, "end" time, "band_id" integer, "period_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("courses")[0m
+  [1m[35m (0.2ms)[0m  CREATE INDEX "index_courses_on_band_id" ON "courses" ("band_id")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("courses")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_courses_on_band_id')
+  [1m[36m (0.2ms)[0m  [1mCREATE INDEX "index_courses_on_period_id" ON "courses" ("period_id")[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120307151009')
+  [1m[36m (0.5ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("bands")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("courses")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_courses_on_period_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_courses_on_band_id')
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("messages")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_messages_on_recipient_id')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_messages_on_sender_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("notifications")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("periods")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schedule_ownerships")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schedules")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("settings")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("task_ownerships")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("tasks")
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateCourses (20120307151009)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("courses")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_courses_on_period_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_courses_on_band_id')
+  [1m[36m (0.7ms)[0m  [1mDROP INDEX "index_courses_on_period_id"[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("courses")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_courses_on_band_id')[0m
+  [1m[35m (0.2ms)[0m  DROP INDEX "index_courses_on_band_id"
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "courses"[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120307151009'
+  [1m[36m (0.5ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("bands")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("messages")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_messages_on_recipient_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_messages_on_sender_id')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("notifications")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("periods")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schedule_ownerships")[0m
+  [1m[35m (1.7ms)[0m  PRAGMA index_list("schedules")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("settings")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("task_ownerships")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("tasks")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateMessages (20120222151513)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("messages")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_messages_on_recipient_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_messages_on_sender_id')
+  [1m[36m (0.7ms)[0m  [1mDROP INDEX "index_messages_on_recipient_id"[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("messages")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_messages_on_sender_id')[0m
+  [1m[35m (0.2ms)[0m  DROP INDEX "index_messages_on_sender_id"
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "messages"[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120222151513'
+  [1m[36m (0.5ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("bands")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("notifications")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("periods")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schedule_ownerships")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schedules")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("settings")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("task_ownerships")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("tasks")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateSettings (20120215151448)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (178.8ms)[0m  DROP TABLE "settings"
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120215151448'[0m
+  [1m[35m (0.4ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("bands")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("notifications")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("periods")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schedule_ownerships")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schedules")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("task_ownerships")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("tasks")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateNotifications (20120215150947)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  DROP TABLE "notifications"
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120215150947'[0m
+  [1m[35m (0.4ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("bands")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("periods")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schedule_ownerships")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schedules")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("task_ownerships")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("tasks")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120123203823)
+Migrating to CreateScheduleOwnerships (20120123204513)
+Migrating to CreatePeriods (20120213202800)
+Migrating to CreateBands (20120213202933)
+Migrating to CreateTaskOwnerships (20120213203125)
+Migrating to CreateSchedules (20120213203416)
+Migrating to CreateTasks (20120215150001)
+Migrating to CreateNotifications (20120215150947)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "notifications" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "content" text, "user_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120215150947')
+Migrating to CreateSettings (20120215151448)
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "settings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120215151448')
+Migrating to CreateMessages (20120222151513)
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "messages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sender_id" integer, "recipient_id" integer, "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("messages")
+  [1m[36m (0.2ms)[0m  [1mCREATE INDEX "index_messages_on_sender_id" ON "messages" ("sender_id")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("messages")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_messages_on_sender_id')[0m
+  [1m[35m (0.2ms)[0m  CREATE INDEX "index_messages_on_recipient_id" ON "messages" ("recipient_id")
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120222151513')[0m
+Migrating to CreateCourses (20120307151009)
+  [1m[35m (0.6ms)[0m  CREATE TABLE "courses" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "start" time, "end" time, "band_id" integer, "period_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("courses")[0m
+  [1m[35m (0.2ms)[0m  CREATE INDEX "index_courses_on_band_id" ON "courses" ("band_id")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("courses")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_courses_on_band_id')
+  [1m[36m (0.2ms)[0m  [1mCREATE INDEX "index_courses_on_period_id" ON "courses" ("period_id")[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120307151009')
+  [1m[36m (0.5ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("bands")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("courses")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_courses_on_period_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_courses_on_band_id')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("messages")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_messages_on_recipient_id')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_messages_on_sender_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("notifications")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("periods")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schedule_ownerships")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schedules")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("settings")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("task_ownerships")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("tasks")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateCourses (20120307151009)
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("courses")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_courses_on_period_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_courses_on_band_id')
+  [1m[36m (0.7ms)[0m  [1mDROP INDEX "index_courses_on_period_id"[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("courses")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_courses_on_band_id')[0m
+  [1m[35m (0.2ms)[0m  DROP INDEX "index_courses_on_band_id"
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "courses"[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120307151009'
+  [1m[36m (0.5ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("bands")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("messages")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_messages_on_recipient_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_messages_on_sender_id')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("notifications")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("periods")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schedule_ownerships")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schedules")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("settings")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("task_ownerships")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("tasks")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateMessages (20120222151513)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("messages")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_messages_on_recipient_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_messages_on_sender_id')
+  [1m[36m (0.7ms)[0m  [1mDROP INDEX "index_messages_on_recipient_id"[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("messages")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_messages_on_sender_id')[0m
+  [1m[35m (0.2ms)[0m  DROP INDEX "index_messages_on_sender_id"
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "messages"[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120222151513'
+  [1m[36m (0.4ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("bands")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("notifications")
+  [1m[36m (0.2ms)[0m  [1mPRAGMA index_list("periods")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schedule_ownerships")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schedules")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("settings")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("task_ownerships")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("tasks")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateSettings (20120215151448)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  DROP TABLE "settings"
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120215151448'[0m
+  [1m[35m (3.7ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("bands")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("notifications")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("periods")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schedule_ownerships")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schedules")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("task_ownerships")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("tasks")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateNotifications (20120215150947)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.1ms)[0m  DROP TABLE "notifications"
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120215150947'[0m
+  [1m[35m (0.4ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("bands")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("periods")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schedule_ownerships")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schedules")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("task_ownerships")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("tasks")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateTasks (20120215150001)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  DROP TABLE "tasks"
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120215150001'[0m
+  [1m[35m (0.4ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("bands")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("periods")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schedule_ownerships")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schedules")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("task_ownerships")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateSchedules (20120213203416)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.4ms)[0m  DROP TABLE "schedules"
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120213203416'[0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("bands")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("periods")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schedule_ownerships")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("task_ownerships")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateTaskOwnerships (20120213203125)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.0ms)[0m  DROP TABLE "task_ownerships"
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120213203125'[0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("bands")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("periods")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schedule_ownerships")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (153.5ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120123203823)
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "settings_id" integer, "hash" varchar(255), "salt" varchar(255), "task_ownership_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120123203823')[0m
+Migrating to CreateScheduleOwnerships (20120123204513)
+  [1m[35m (1.2ms)[0m  CREATE TABLE "schedule_ownerships" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "schedule_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120123204513')[0m
+Migrating to CreatePeriods (20120213202800)
+  [1m[35m (0.4ms)[0m  CREATE TABLE "periods" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "period" integer, "schedule_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (2.7ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120213202800')[0m
+Migrating to CreateBands (20120213202933)
+  [1m[35m (0.4ms)[0m  CREATE TABLE "bands" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "band" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120213202933')[0m
+Migrating to CreateTaskOwnerships (20120213203125)
+  [1m[35m (0.4ms)[0m  CREATE TABLE "task_ownerships" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "task_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120213203125')[0m
+Migrating to CreateSchedules (20120213203416)
+  [1m[35m (0.5ms)[0m  CREATE TABLE "schedules" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "is_period" boolean, "user_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120213203416')[0m
+Migrating to CreateTasks (20120215150001)
+  [1m[35m (0.6ms)[0m  CREATE TABLE "tasks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "due" date, "super_task_id" integer, "task_ownership_id" integer, "course_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120215150001')[0m
+Migrating to CreateNotifications (20120215150947)
+  [1m[35m (0.5ms)[0m  CREATE TABLE "notifications" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "content" text, "user_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120215150947')[0m
+Migrating to CreateSettings (20120215151448)
+  [1m[35m (0.5ms)[0m  CREATE TABLE "settings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120215151448')[0m
+Migrating to CreateMessages (20120222151513)
+  [1m[35m (0.5ms)[0m  CREATE TABLE "messages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sender_id" integer, "recipient_id" integer, "content" text, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("messages")[0m
+  [1m[35m (0.1ms)[0m  CREATE INDEX "index_messages_on_sender_id" ON "messages" ("sender_id")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("messages")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_messages_on_sender_id')
+  [1m[36m (0.1ms)[0m  [1mCREATE INDEX "index_messages_on_recipient_id" ON "messages" ("recipient_id")[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120222151513')
+Migrating to CreateCourses (20120307151009)
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "courses" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "start" time, "end" time, "band_id" integer, "period_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.2ms)[0m  PRAGMA index_list("courses")
+  [1m[36m (0.2ms)[0m  [1mCREATE INDEX "index_courses_on_band_id" ON "courses" ("band_id")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("courses")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_courses_on_band_id')[0m
+  [1m[35m (0.2ms)[0m  CREATE INDEX "index_courses_on_period_id" ON "courses" ("period_id")
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120307151009')[0m
+  [1m[35m (0.6ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("bands")
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("courses")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_courses_on_period_id')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_courses_on_band_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("messages")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_messages_on_recipient_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_messages_on_sender_id')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("notifications")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("periods")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schedule_ownerships")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schedules")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("settings")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("task_ownerships")
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("tasks")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
