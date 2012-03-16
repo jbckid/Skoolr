@@ -2,10 +2,62 @@
 
 <html>
 <head>
-</head>
+<style type="text/css">
+body {
+ 	color: #000000;
+ 	font-family: Verdana, Geneva, Arial, sans-serif;
+ 	background-color: #0066CC
+ 	}
+	
+h1 {
+	color: #FFFFFF; 
+	font-family: Verdana, Geneva, Arial, sans-serif; 
+	}
 
-<body>
+h2 {
+	color: #000099; 
+	font-family: Verdana, Geneva, Arial, sans-serif; 
+	text-align:center
+	}
+
+table{
+	border-collapse:collapse;
+	width:95%;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	}
+	
+table, th, td {
+	border: 1px solid black;
+	color: #CCFFFF
+	}
+	
+td {
+	vertical-align:top;
+	}
+</style>
+
 <meta charset="utf-8">
+
+<script type="text/javascript"> 
+function hideAllDiv()
+{
+	document.getElementById("month-tab").style.display = "none";
+	document.getElementById("week-tab").style.display = "none";
+	document.getElementById("day-tab").style.display = "none";
+	document.getElementById("new-task-view").style.display = "none";
+}
+
+function toggle(div) 
+{
+	var d = document.getElementById(div);
+	if(d.style.display == "block") 
+	{ d.style.display = "none"; }
+	else 
+	{ d.style.display = "block"; }
+} 
+
+$("#task-button").click(toggle("#new-task-form"));
+</script>
 	
 	<script>
 	$(function() {
@@ -13,24 +65,28 @@
 			ajaxOptions: {
 				error: function( xhr, status, index, anchor ) {
 					$( anchor.hash ).html(
-						"Couldn't load this tab. We'll try to fix this as soon as possible. " +
-						"If this wouldn't be a demo." );
+						"Couldn't load this tab." );
 				}
 			}
 		});
 	});
 	</script>
+</head>
+
+<body onLoad=hideAllDiv()>
+
+<h1>Skoolr</h1>
 
 <div id="tabs">
 	<ul>
-		<li><a href="#tabs-1">Welcome</a></li>
-		<li><a href="#month-tab">Month</a></li>
-		<li><a href="#week-tab">Week</a></li>
-		<li><a href="#day-tab">Day</a></li>
+		<li><a href="#tabs-1" onclick=toggle("#tabs-1")>Welcome</a></li>
+		<li><a href="#month-tab" onclick=toggle("#month-tab">Month</a></li>
+		<li><a href="#week-tab" onclick=toggle("#week-tab")>Week</a></li>
+		<li><a href="#day-tab" onclick=toggle("#day-tab")>Day</a></li>
 	</ul>
 	<div id="tabs-1">
 		<p>Welcome to Schoolr!</p>
-		<p>Currently the month, week, and day calendar views do not have any functionality. Tasks are in progress.</p>
+		<p>This is a mockup.</p>
 	</div>
 	<div id="month-tab">
 		<%= render "shared/month_view" %>
@@ -44,9 +100,10 @@
 </div>
 
 <div id="tasks">
-	<button id="new-task">Add a task</button>
+	<button id="task-button">Add a task</button>
 
-	<div id="task-view">
+	<div id="new-task-view">
+		<h3>Add a task.</h3>
 		<%= render "shared/newtaskform" %>
 	</div>
 </div>
